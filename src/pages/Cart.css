@@ -1,0 +1,88 @@
+.cart-page {
+    padding: 20px;
+  }
+  
+  /* Make all cards the same height */
+.Card {
+  height: 100%;               /* Ensure cards take up full height within their column */
+  display: flex;
+  flex-direction: column;     /* Align card content vertically */
+  justify-content: space-between; /* Distribute content evenly */
+}
+
+/* Ensure all images within the cards have the same size */
+.Card.Img {
+  width: 100%;               /* Make the image fill the width of its parent */
+  height: 200px;             /* Set a fixed height for the image */
+  object-fit: cover;         /* Ensure the image fills the area without distortion */
+  border-radius: 0.25rem;    /* Optional: For rounded corners (if you want) */
+}
+
+/* Optional: Make sure card text and body areas also adjust for consistency */
+.Card.Body {
+  flex-grow: 1;              /* Allow the card body to take up remaining space */
+}
+
+  .cart-items {
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  .empty-cart {
+    background-color: #f8d7da;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .payment-success {
+    background-color: #d4edda;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .payment-section {
+    margin-top: 20px;
+  }
+  
+  .payment-btn {
+    background-color: #f1c40f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .address-form {
+    margin-top: 20px;
+  }
+  
+  .address-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .address-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .address-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

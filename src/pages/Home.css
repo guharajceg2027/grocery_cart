@@ -1,0 +1,171 @@
+/* Home Page Styling */
+
+/* Clearer Paragraph Styling */
+.carousel-text {
+    font-size: 1.2rem; /* Slightly larger font for better readability */
+    font-weight: 500; /* Slightly bolder text to make it stand out more */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6); /* Added text shadow for better contrast */
+    color: rgba(255, 255, 255, 0.9); /* Light color for readability */
+  }
+  
+  /* Additional custom styles for Carousel Caption */
+  .carousel-caption {
+    padding: 20px;
+  }
+
+  
+.home-page {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333; /* Added a default text color for better readability */
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding-bottom: 40px; /* Slightly more padding for spacing */
+}
+
+.brand-name {
+  color: #28a745;
+  font-weight: bold;
+  font-size: 2.5rem; /* Larger font for brand name */
+  letter-spacing: 2px; /* Adds spacing to letters for a clean look */
+  text-transform: uppercase; /* Gives it an all-caps style */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.brand-name:hover {
+  transform: scale(1.1); /* Scale effect on hover */
+  color: #4CAF50; /* Slightly lighter green for hover effect */
+}
+
+.hero-subtitle {
+  font-size: 1.4rem; /* Increased font size for better visibility */
+  color: #666;
+  margin-top: 10px; /* Space between subtitle and brand name */
+}
+
+/* Custom Carousel Styling */
+.carousel-custom {
+  margin-top: 30px;
+  border-radius: 20px; /* Slightly larger border radius for a smoother look */
+  overflow: hidden;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+}
+
+/* Category Section */
+.category-section {
+  padding: 50px 0;
+  background-color: #ffffff;
+  border-top: 5px solid #28a745; /* Green accent at the top */
+}
+
+.category-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 2rem; /* Increased font size for category heading */
+  color: #333; /* Darker color for contrast */
+}
+
+.category-card {
+  margin-bottom: 30px; /* Increased spacing between cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.category-card:hover {
+  transform: translateY(-8px); /* Larger hover effect */
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1); /* Bigger shadow for depth */
+}
+
+/* Offer Section */
+.offer-section {
+  text-align: center;
+  padding: 60px 0;
+  background: linear-gradient(135deg, #fff4d6, #ffd76e);
+  border-radius: 20px;
+}
+
+.offer-section h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+  padding: 40px;
+  background-color: #e9ffe8;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem; /* Improved readability for testimonials */
+  color: #555; /* Darker text for better readability */
+}
+
+.testimonial-section blockquote {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* CTA Section */
+.cta-section {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #fff;
+  border-top: 5px solid #28a745; /* Green border at the top */
+}
+
+.cta-section h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #666; /* Slightly lighter text for paragraph */
+}
+
+/* CTA Button Styling */
+.cta-section button {
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-section button:hover {
+  background-color: #4CAF50;
+  transform: scale(1.05); /* Slight scale effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 20px 10px;
+  }
+
+  .category-section {
+    padding: 40px 10px;
+  }
+
+  .category-card {
+    margin-bottom: 20px;
+  }
+
+  .cta-section {
+    padding: 50px 10px;
+  }
+}

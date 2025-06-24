@@ -1,0 +1,130 @@
+/* Page.css */
+.page {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h4 {
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #28a745;
+}
+
+p {
+  line-height: 1.6;
+  color: #495057;
+}
+
+.page p {
+  font-size: 1rem;
+}
+
+.container {
+  padding: 0;
+}
+
+
+.page {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.page h1, .page h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.form input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border 0.3s;
+}
+
+.form input:focus {
+  outline: none;
+  border: 1px solid #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.form button:hover {
+  background-color: #43a047;
+  transform: translateY(-1px);
+}
+
+/* Fancy fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page p {
+  font-size: 15px;
+  color: #333;
+}
+
+.page {
+  text-align: center;
+  padding: 20px;
+}
+
+.carousel-item img {
+  width: 100%; /* Make sure the image fills the container */
+  height: 400px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensures that the image scales correctly while maintaining its aspect ratio */
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #666666;
+}

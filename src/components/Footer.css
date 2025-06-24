@@ -1,0 +1,30 @@
+.footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px 15px;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+  margin-top: 60px;
+  border-top: 4px solid #43a047;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.05);
+  animation: slideUp 0.5s ease-in-out;
+}
+
+.footer p {
+  margin: 8px 0;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

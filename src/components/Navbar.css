@@ -1,0 +1,20 @@
+.footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer .contact-info p {
+  margin-bottom: 5px;
+}
+
+.footer .contact-info p a {
+  color: #f8f9fa;
+}
+
+.footer .contact-info p a:hover {
+  color: #e74c3c;
+}
